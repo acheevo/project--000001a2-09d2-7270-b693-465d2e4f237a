@@ -23,7 +23,7 @@ type Config struct {
 	// Database Configuration (optional for some microservices)
 	// Database host address
 	DatabaseURL string `envconfig:"DATABASE_URL"`
-	DBHost string `envconfig:"DB_HOST" default:"localhost"`
+	DBHost      string `envconfig:"DB_HOST" default:"localhost"`
 	// Database port number
 	DBPort string `envconfig:"DB_PORT" default:"5432"`
 	// Database username for authentication
